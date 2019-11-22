@@ -14,13 +14,13 @@ function f() {
         affichage.innerHTML += saisie;
         if (saisie > nb) // si la saisie est supérieur au nombre alors "c'est moins"
         {
-            message = "C'est moins";
+            message = "C'est moins ! essai n°" + nombreDessai + " ! ";
 
         }
 
         else if (saisie < nb)
         {
-            message = " C'est plus !!";
+            message = " C'est plus !! esssai n° " + nombreDessai + " ! ";
 
         }
 
